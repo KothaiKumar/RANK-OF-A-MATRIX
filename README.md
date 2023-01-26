@@ -12,12 +12,17 @@ To write a python program to find the rank of a matrix
 ## Program:
 '''python
 #Program to find the rank of a matrix.
+
 #Developed by: Kothai K
+
 #RegisterNumber:22006043
 
 import numpy as np
+
 A = np.array([[3,2,5],[1,1,2],[3,3,6]])
+
 rank = np.linalg.matrix_rank(A)
+
 print(rank)
 
 '''
